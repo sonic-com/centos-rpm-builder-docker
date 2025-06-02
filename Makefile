@@ -1,7 +1,7 @@
 build10:
 	docker build --pull --force-rm \
-		-f Dockerfile.alma10 \
-		-t lest/centos-rpm-builder:alma10 \
+		-f Dockerfile.stream10 \
+		-t lest/centos-rpm-builder:stream10 \
 		.
 build9:
 	docker build --pull --force-rm \
